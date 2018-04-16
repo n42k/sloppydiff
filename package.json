@@ -1,0 +1,33 @@
+{
+  "name": "sloppydiff",
+  "version": "0.0.2",
+  "description": "A library similar to jsondiffpatch, only that it doesn't implement the minimum diff, thus being faster",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "prepare": "require-self"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n42k/sloppydiff.git"
+  },
+  "keywords": [
+    "json",
+    "diff",
+    "patch"
+  ],
+  "author": "Pedro Amaro <n101010k@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/n42k/sloppydiff/issues"
+  },
+  "homepage": "https://github.com/n42k/sloppydiff#readme",
+  "dependencies": {
+    "deep-equal": "^1.0.1",
+    "jsondiffpatch": "^0.3.9"
+  },
+  "devDependencies": {
+    "require-self": "^0.2.1",
+    "mocha": "^5.1.0"
+  }
+}
